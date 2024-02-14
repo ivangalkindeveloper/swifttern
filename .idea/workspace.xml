@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="359cdbe2-08c0-4865-8f46-d6af506474ed" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/behavior/chain_of_responsibility.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavior/command.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavior/interpreter.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavior/iterator.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavior/mediator.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavior/memento.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavior/observer.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavior/state.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavior/strategy.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavior/template_method.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behavior/visitor.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generative/abstract_factory.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generative/builder.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generative/factory_method.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generative/prototype.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generative/singleton.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structure/adapter.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structure/birdge.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structure/composite.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structure/decorator.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structure/facade.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structure/flyweight.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structure/proxy.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swifttern.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/swifttern.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swifttern.xcodeproj/xcuserdata/ivangalkin.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/swifttern.xcodeproj/xcuserdata/ivangalkin.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swifttern/ContentView.swift" beforeDir="false" afterPath="$PROJECT_DIR$/swifttern/ContentView.swift" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="AppCode" />
+    <option name="majorVersion" value="2023" />
+    <option name="minorVersion" value="1.4" />
+  </component>
+  <component name="ProjectId" id="2cF7P4fCGdMik8k435RKrU1oWkA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "/Users/ivangalkin/Development/My projects/swifttern"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="swifttern" type="AppleRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="swifttern" TARGET_NAME="swifttern" CONFIG_NAME="Debug" IS_LOCATION_SIMULATION_SUPPORTED="false" SCHEME_NAME="swifttern" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" RUN_TARGET_PROJECT_NAME="swifttern" RUN_TARGET_NAME="swifttern" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <embedded_app_extension_list />
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="359cdbe2-08c0-4865-8f46-d6af506474ed" name="Changes" comment="" />
+      <created>1707695445864</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707695445864</updated>
+      <workItem from="1707695447275" duration="40000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
