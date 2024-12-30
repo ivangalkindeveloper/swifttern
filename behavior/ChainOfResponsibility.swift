@@ -1,6 +1,6 @@
 //
 //  chain_of_responsibility.swift
-//  swifttern
+//  Swifttern
 //
 //  Created by Иван Галкин on 01.02.2024.
 //
@@ -54,30 +54,30 @@ protocol Handler {
 // - имеет доступ к своему преемнику;
 // - если ConcreteHandler способен обработать запрос, то так и делает, если не может,
 // то отправляет своему преемнику.
-class ConcreteHandler1 : Handler {
+class ConcreteHandler1: Handler {
     init(successor: ConcreteHandler2) {
         self.successor = successor
     }
-    
+
     var successor: ConcreteHandler2
-    
+
     func handleRequest() {}
 }
 
-class ConcreteHandler2 : Handler {
+class ConcreteHandler2: Handler {
     func handleRequest() {}
 }
 
 // Клиент запроса
 // - отправляет запрос некоторому объекту ConcreteHandler в цепочке.
-class Client {
+class CORClient {
     init(handler: ConcreteHandler1) {
         self.handler = handler
     }
-    
+
     var handler: ConcreteHandler1
-    
+
     func request() {
-        self.handler.handleRequest()
+        handler.handleRequest()
     }
 }

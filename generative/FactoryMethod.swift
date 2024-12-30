@@ -1,6 +1,6 @@
 //
 //  factory_method.swift
-//  swifttern
+//  Swifttern
 //
 //  Created by Иван Галкин on 14.01.2024.
 //
@@ -69,7 +69,7 @@ class ConcreteProduct: Product {}
 // - объявляет фабричный метод, возвращающийй объект типа Product;
 // - Creator может также определять реализацию по умолчанию фабричного метода, который возвращает объект ConcreteProduct.
 protocol Creator {
-     func factoryMethod() -> Product
+    func factoryMethod() -> Product
 }
 
 // Конкретный создатель

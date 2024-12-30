@@ -1,6 +1,6 @@
 //
 //  template_method.swift
-//  swifttern
+//  Swifttern
 //
 //  Created by Иван Галкин on 11.02.2024.
 //
@@ -52,9 +52,9 @@
 // в классе AbstractClass или в других объектах.
 protocol AbstractClass {
     func templateMethod() -> Void
-    
+
     func primitiveOperationA() -> Void
-    
+
     func primitiveOperationB() -> Void
 }
 
@@ -62,11 +62,11 @@ protocol AbstractClass {
 // - реализует примитивные операции, выполняющие шаги алгоритма способом, который зависит от подкласса.
 class ConcreteClass: AbstractClass {
     func templateMethod() -> Void {
-        self.primitiveOperationA()
-        self.primitiveOperationB()
+        primitiveOperationA()
+        primitiveOperationB()
     }
-    
+
     func primitiveOperationA() -> Void {}
-    
+
     func primitiveOperationB() -> Void {}
 }

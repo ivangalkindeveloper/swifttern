@@ -1,6 +1,6 @@
 //
 //  birdge.swift
-//  swifttern
+//  Swifttern
 //
 //  Created by Иван Галкин on 22.01.2024.
 //
@@ -65,10 +65,10 @@ class RefinedAbstraction: Abstraction {
     init(implementor: Implementor) {
         self.implementor = implementor
     }
-    
+
     var implementor: Implementor
-    
-    func operation() -> Void {}
+
+    func operation() {}
 }
 
 // Реализатор
@@ -83,18 +83,18 @@ protocol Implementor {
 // Конкретный реализатор
 // - реализует интерфейс класса Implementor и определяет его конкретную реализацию.
 class ConcreteImplementor: Implementor {
-    func operationImp() -> Void {}
+    func operationImp() {}
 }
 
 // Клиент запроса
-class Client {
+class BClient {
     init(abstraction: Abstraction) {
         self.abstraction = abstraction
     }
-    
-    var abstraction: Abstraction;
-    
+
+    var abstraction: Abstraction
+
     func request() {
-        self.abstraction.operation()
+        abstraction.operation()
     }
 }

@@ -1,6 +1,6 @@
 //
 //  abstract_factory.swift
-//  swifttern
+//  Swifttern
 //
 //  Created by Иван Галкин on 13.01.2024.
 //
@@ -54,16 +54,16 @@
 // Абстрактная фабрика
 // - объявляет интерфейс для операций, создающих абстрактные объекты-продукты
 protocol AbstractFactory {
-     func createProductA() -> AbstractProduct
-    
-     func createProductB() -> AbstractProduct
+    func createProductA() -> AbstractProduct
+
+    func createProductB() -> AbstractProduct
 }
 
 // Конкретная фабрика
 // - реализует операции, создающие конкретые объекты-продукты
 class ConcreteFactory: AbstractFactory {
     func createProductA() -> AbstractProduct {}
-    
+
     func createProductB() -> AbstractProduct {}
 }
 
@@ -81,7 +81,6 @@ class Client {
     init(abstractFactory: AbstractFactory) {
         self.abstractFactory = abstractFactory
     }
-    
+
     var abstractFactory: AbstractFactory
 }
-
